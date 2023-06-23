@@ -1,0 +1,73 @@
+$layout-name: "contato";
+
+.#{$layout-name} {
+    background: #dadadd;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .l-main{
+        
+        background: $cor-white;
+        border-radius: 6px;
+        height: 432px;
+        width: 768px;
+        padding: $mobile-size * 2;
+        position: relative;
+        display: flex;
+        margin: 50px auto 50px auto;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.15), 0 0 30px rgba(0, 0, 0, 0.1);
+        h2{
+            color: black;
+        }
+      
+    }
+    
+}
+
+@media (max-width: 900px) {
+    .contato .l-main{
+        width: 708px;
+        height: 372px;
+    }
+
+}
+
+@media (max-width: 800px) {
+    .contato .l-main{
+        width: 658px;
+        height: 322px;
+    }
+
+    .c-card__title{
+        font-size: 1.2rem;
+    }
+
+    .c-card__explanation{
+        font-size: 1.1rem;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .contato .l-main{
+        width: 430px;
+        height: 430px;
+    }
+
+    
+    .c-card-content{
+        margin-bottom: 1rem;
+    }
+    
+    .c-card__title{
+        font-size: 1.2rem;
+    }
+
+    .c-card__explanation{
+        font-size: 1.1rem;
+    }
+
+}
+

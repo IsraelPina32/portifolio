@@ -1,0 +1,58 @@
+$layout-name: "navegacao-principal";
+
+.#{$layout-name} {
+    .menu-fixo{
+        position: fixed;
+        width: 100%;
+        height: 10vh;
+        z-index: 2;
+
+        .navegacao-container{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 8vh;
+            background: black;
+            color: white;
+            font-weight: bold;
+            border: none;
+            transition: 0.5 all ease-in-out;
+            font-size: 18px;
+            padding: 15px;
+            .navegacao-container-foto{
+                height: 55px;
+                border-radius: 40px;
+                margin-right: 15vw;
+                font-size: 20pt;
+
+                &:hover{
+                    transform: scale(1.1);
+                    transition: 0.5s;
+                    cursor: pointer;
+                    }
+                }
+
+            .nave-intens{
+                display: flex;
+                flex-direction: row;
+
+                    li{
+                        margin-left: 45px;
+                        font-size: 18pt;
+                    
+                        &:hover{
+                           background-color: white;
+                           color: black;
+                           cursor: pointer;
+                           font-weight: bold;
+                           font-size: 24px;
+                           padding: 5px;
+                           border: none;
+                           border-radius: 200rem;
+                           transition: 0.2 s all ease-in-out;
+                    }
+                }
+             }
+        }
+    }
+}
