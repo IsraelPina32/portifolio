@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Sarala&display=swap");
 .navegacao-principal .menu-fixo {
   position: fixed;
@@ -292,7 +293,7 @@
   width: 80%;
 }
 .projetos .projetos-container .projetos-img1 {
-  background-image: url(../../imgs/Blender.png);
+  background-image: url(../../imgs/Animação.gif);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
