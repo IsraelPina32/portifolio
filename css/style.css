@@ -309,7 +309,7 @@
   transition: 1s ease-in-out;
 }
 .projetos .projetos-container .projetos-img2 {
-  background-image: url(../../imgs/Progamador.jpg);
+  background-image: url(../../imgs/);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -324,7 +324,7 @@
   transition: 1s ease-in-out;
 }
 .projetos .projetos-container .projetos-img3 {
-  background-image: url(../../imgs/Desgin.jpg);
+  background-image: url(../../imgs/);
   background-repeat: no-repeat;
   background-size: 80%;
   background-position: center;
@@ -408,6 +408,7 @@
   }
   .c-card__title {
     font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
   }
   .c-card__explanation {
     font-size: 1.1rem;
@@ -429,7 +430,7 @@
   }
 }
 .c-button {
-  background: blue;
+  background: black;
   border-radius: 30px;
   color: #fff;
   display: inline-block;
@@ -440,7 +441,8 @@
   transition: all 90ms ease-in;
 }
 .c-button:hover {
-  background-color: #00ffff;
+  background-color: rgb(54, 53, 53);
+  color: #fff;
   transition: all 90ms ease-out;
 }
 .c-button:active {
