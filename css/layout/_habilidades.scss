@@ -35,7 +35,8 @@ $layout-name: "habilidades-sessao";
         .conhecimento-text{
             margin-top: 1rem;
             color: $text-color;
-            font-family: 'Kdam Thmor Pro', sans-serif;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 300;
         }
     }
 
@@ -102,10 +103,10 @@ $layout-name: "habilidades-sessao";
 }
 .habilidades-sessao .conhecimentos .conhecimento:nth-child(2){
     grid-column: 2/6;
-    grid-row: 3/5;
+    grid-row: 3/4;
 }
 .habilidades-sessao .conhecimentos .conhecimento:nth-child(3){
-    grid-column: 3/7;
+    grid-column: 4/7;
     grid-row: 5/-1;
 }
 .habilidades-sessao .conhecimentos .conhecimento:nth-child(4){
@@ -131,6 +132,12 @@ $layout-name: "habilidades-sessao";
 }
 
 @media (max-width: 850px){
+
+    .habilidades-sessao .conhecimentos .conhecimento .conhecimento-header h3{
+        font-size: 1.0rem;
+        display: flex;
+        flex-wrap: wrap;
+}
     .habilidades-sessao .conhecimentos .conhecimento .conhecimento-text p{
             font-size: 0.9rem;
     }
@@ -142,7 +149,16 @@ $layout-name: "habilidades-sessao";
 
 }
 
-@media (max-width: 800px){
+@media (max-width: 425px){
+    .habilidades-sessao .conhecimentos .conhecimentos-img{
+        display: none;
+    }
+    .habilidades-sessao .conhecimentos .conhecimento .conhecimento-text p{
+        flex-wrap: wrap;
+        font-size: 0.7rem;
+        font-weight: 500;
+        display: flex;
+        align-items: center;      
 
-
+}
 }
