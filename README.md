@@ -1,7 +1,10 @@
 
-# My Portfolio Oficial, Meu Portifolio Ocifial de Israel Pina
+# My Portfolio Oficial from Israel Pina. Meu Portifolio Oficial de Israel Pina
 <br>
 Este e meu portfolio oficial onde boto meus trabalhos e projetos Front End
+<br>
+<br>
+<h3>This is my official portfolio where I put my works and Front End projects</h3>
 <br>
 <br>
 <img src="./imgs/Anima%C3%A7%C3%A3o_Portifolio.gif" alt="Portifolio-oficial" height="600px" width="950px">
