@@ -65,8 +65,12 @@ $layout-name: "home";
         }    
         .fa-angle-down{
             font-size: 60pt;
-            animation: flutuando 1s ease-in-out infinite;
+            animation: flutuando 0.2s ease-in-out infinite;
             }   
         }
-   
 }
+ @media (max-width: 478px) {
+        .home-container p {
+           font-size: 17px;
+        }
+ }

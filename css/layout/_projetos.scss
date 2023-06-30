@@ -2,6 +2,7 @@ $layout-name: "projetos";
 
 .#{$layout-name}{
     width: 100%;
+    padding: 3.5rem 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,17 +10,16 @@ $layout-name: "projetos";
     flex-direction: column;
 
     
-    
     .projetos-container{
+        margin-top: 2vh;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
         width: 80%;
-
        
     .projetos-img1{
-        background-image: url(../../imgs/Animação.gif);
+        background-image: url(./../imgs/Animação.gif);
         background-repeat: no-repeat;
         background-size: 100%;
         background-position: center;
@@ -104,9 +104,7 @@ $layout-name: "projetos";
            background-color: black;
            color: white;
          }
-       }
-      
-   
-      }
+       }  
+    }
    }
 }
