@@ -68,6 +68,27 @@ $layout-name: "contato";
     .c-card__explanation{
         font-size: 1.1rem;
     }
+}
 
+@media (max-width : 437px){
+    .contato .l-main {
+        width: 350px;
+        height: 360px;
+    }
+    .c-card-content{
+        margin-bottom: 3rem;
+    }
+    .c-card__title {
+        font-size: 1rem;
+    }
+    .c-card__explanation{
+        font-size: 0.9rem; 
+    }
+    .c-menu.js-menu {
+        margin-bottom: -1rem;
+    }
+
+    
+    
 }
 

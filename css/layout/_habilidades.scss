@@ -160,3 +160,11 @@ $layout-name: "habilidades-sessao";
 
 }
 }
+
+@media (max-width: 463px) {
+    .habilidades-sessao .conhecimentos .conhecimento .conhecimento-text p{
+        flex-wrap: wrap;
+        font-size: 0.8rem;   
+
+    }
+}
