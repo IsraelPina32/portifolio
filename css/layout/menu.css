@@ -73,11 +73,6 @@
         .navegacao-principal .menu-fixo .navegacao-container .nave-intens {
             display: none;
         }
-
-        .navegacao-principal .navegacao-container ul.nave-intens li a:hover {
-            padding: 12px;
-        }
-
          .navegacao-principal .navegacao-container .menu {
             display: block;
         }
@@ -98,7 +93,7 @@
 
         .navegacao-principal .navegacao-container nav .nave-intens  {
             width: 250px;
-            padding: 20px;
+            padding: 16px;
             background-color: black;
         }
 
