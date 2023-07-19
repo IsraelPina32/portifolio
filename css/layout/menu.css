@@ -71,9 +71,11 @@
 @media (max-width: 900px){
        
         .navegacao-principal .menu-fixo .navegacao-container .nave-intens {
-            flex-direction: column;
-            justify-content: center;
             display: none;
+        }
+
+        .navegacao-principal .navegacao-container ul.nave-intens li a:hover {
+            padding: 10px;
         }
 
          .navegacao-principal .navegacao-container .menu {
@@ -86,7 +88,7 @@
 
         .navegacao-principal .navegacao-container nav {
                 position: absolute;
-                top: 11.3px;
+                top: 10px;
                 right: 25px;
                 z-index: 1;
         }
@@ -96,7 +98,7 @@
 
         .navegacao-principal .navegacao-container nav .nave-intens  {
             width: 250px;
-            padding: 15px;
+            padding: 12px;
             background-color: black;
         }
 
