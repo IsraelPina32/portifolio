@@ -1,0 +1,102 @@
+.navegacao-principal nav ul {
+    display: flex;
+}
+
+.navegacao-principal .navegacao-container nav .nave-intens nav li a {
+    font-size: 1rem;
+    font-weight: 500;
+   background-color: aqua;
+}
+.navegacao-principal .menu {
+    display: none;
+    width: 60px;
+    height: 60px;
+    align-self: flex-end;   
+}
+
+
+.navegacao-principal nav  label {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.navegacao-principal .hambuguer {
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 2px;
+    top: 29px;
+    left: 15px;
+    transition: 0.5s ease-in-out;
+    background-color: #fff;
+}
+
+.navegacao-principal .hambuguer:before, 
+.navegacao-principal .hambuguer:after {
+    background-color: #fff;
+    content: '';
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    transition: 0.2s ease-in-out;
+}
+
+.navegacao-principal .hambuguer:before {
+    top: -10px;
+}
+
+.navegacao-principal .hambuguer:after {
+    bottom: -10px;
+}
+
+
+.navegacao-principal input {
+    display: none;
+}
+
+.navegacao-principal input:checked ~ label .hambuguer {
+    transform: rotate(45deg);
+}
+
+.navegacao-principal input:checked ~ label .hambuguer:before {
+        transform: rotate(90deg);
+        top: 0;
+}
+
+.navegacao-principal input:checked ~ label .hambuguer:after {
+    transform: rotate(90deg);
+    bottom: 0;
+}
+
+@media (max-width: 900px){
+        .navegacao-principal .menu {
+            display: block;
+        }
+
+        .navegacao-principal nav  .nave-intens {
+            display: none;
+        }
+
+        .navegacao-principal input:checked ~ .nave-intens {
+            display: block;
+        }
+
+        .navegacao-principal nav {
+                position: absolute;
+                /* top: 8px;
+                right: 20px; */
+                z-index: 1;
+        }
+
+        .navegacao-principal nav .nave-intens  {
+            width: 320px;
+            background-color: #0000;
+        }
+
+        .navegacao-principal nav .nave-intens  li a {
+             display: block;
+             text-align: center;
+        }
+}

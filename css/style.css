@@ -34,11 +34,11 @@
   display: flex;
   flex-direction: row;
 }
-.navegacao-principal .menu-fixo .navegacao-container .nave-intens li {
+.navegacao-principal .menu-fixo .navegacao-container .nave-intens a {
   margin-left: 45px;
   font-size: 18pt;
 }
-.navegacao-principal .menu-fixo .navegacao-container .nave-intens li:hover {
+.navegacao-principal .menu-fixo .navegacao-container .nave-intens a:hover {
   background-color: white;
   color: black;
   cursor: pointer;

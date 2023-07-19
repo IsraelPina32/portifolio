@@ -10,13 +10,16 @@
     <link rel=" icon" href="favicon/favicon-32x32.png" type="img/">
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout/menu.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Poppins:wght@400;600&family=Public+Sans:wght@300;400;800&display=swap"rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Poppins:wght@400;600&family=Public+Sans:wght@300;400;800&display=swap"
+        rel="stylesheet">
 
     <script src="https://kit.fontawesome.com/90dd3151ae.js" crossorigin="anonymous"></script>
 
@@ -29,23 +32,23 @@
         <div class="menu-fixo">
             <div class="navegacao-container">
                 <img class="navegacao-container-foto" src="imgs/Logo Para MIM.png">
-                <ul class="nave-intens nav" type="none">
-                    <a href="#home">
-                        <li>Home</li>
-                    </a>
-                    <a href="#sobre">
-                        <li>Sobre</li>
-                    </a>
-                    <a href="#habilidade">
-                        <li>Habilidades</li>
-                    </a>
-                    <a href="#projetos">
-                        <li>Projetos</li>
-                    </a>
-                    <a href="#contato">
-                        <li>Contato</li>
-                    </a>
-                </ul>
+                <nav>
+                    <input type="checkbox" id="menu-hambuguer">
+
+                    <label for="menu-hambuguer">
+                        <div class="menu">
+                            <span class="hambuguer"></span>
+                        </div>
+                    </label>
+
+                    <ul class="nave-intens nav" type="none">
+                        <li> <a href="#home">{Home}</a></li>
+                        <li> <a href="#sobre">{Sobre}</a></li> 
+                        <li> <a href="#habilidade">{Habilidades}</a></li>
+                        <li> <a href="#projetos">{Projetos}</a></li>
+                        <li> <a href="#contato">{Contato}</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
         <!----------FIM DO HEADER------------->
