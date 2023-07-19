@@ -1,21 +1,19 @@
-.navegacao-principal nav ul {
+.navegacao-principal .navegacao-container nav .nave-intens li a {
     display: flex;
 }
 
-.navegacao-principal .navegacao-container nav .nave-intens nav li a {
-    font-size: 1rem;
-    font-weight: 500;
-   background-color: aqua;
-}
-.navegacao-principal .menu {
+
+.navegacao-principal .navegacao-container  .menu {
     display: none;
     width: 60px;
     height: 60px;
-    align-self: flex-end;   
+    align-self: flex-end; 
 }
 
 
-.navegacao-principal nav  label {
+
+
+.navegacao-principal .navegacao-container  nav  label {
     display: flex;
     flex-direction: column;
 }
@@ -53,11 +51,11 @@
 
 
 .navegacao-principal input {
-    display: none;
+     display: none;
 }
 
 .navegacao-principal input:checked ~ label .hambuguer {
-    transform: rotate(45deg);
+        transform: rotate(45deg);
 }
 
 .navegacao-principal input:checked ~ label .hambuguer:before {
@@ -66,36 +64,43 @@
 }
 
 .navegacao-principal input:checked ~ label .hambuguer:after {
-    transform: rotate(90deg);
-    bottom: 0;
+        transform: rotate(90deg);
+        bottom: 0;
 }
 
 @media (max-width: 900px){
-        .navegacao-principal .menu {
-            display: block;
-        }
-
-        .navegacao-principal nav  .nave-intens {
+       
+        .navegacao-principal .menu-fixo .navegacao-container .nave-intens {
+            flex-direction: column;
+            justify-content: center;
             display: none;
         }
 
-        .navegacao-principal input:checked ~ .nave-intens {
+         .navegacao-principal .navegacao-container .menu {
             display: block;
         }
 
-        .navegacao-principal nav {
+        .navegacao-principal .navegacao-container input:checked ~ ul.nave-intens {
+            display: block;
+        }
+
+        .navegacao-principal .navegacao-container nav {
                 position: absolute;
-                /* top: 8px;
-                right: 20px; */
+                top: 11.3px;
+                right: 25px;
                 z-index: 1;
         }
-
-        .navegacao-principal nav .nave-intens  {
-            width: 320px;
-            background-color: #0000;
+        .navegacao-principal .navegacao-container nav ul.nave-intens li a {
+            margin: 15px;
         }
 
-        .navegacao-principal nav .nave-intens  li a {
+        .navegacao-principal .navegacao-container nav .nave-intens  {
+            width: 250px;
+            padding: 15px;
+            background-color: black;
+        }
+
+        .navegacao-principal .navegacao-container nav ul.nave-intens {
              display: block;
              text-align: center;
         }
