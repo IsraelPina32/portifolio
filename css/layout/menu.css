@@ -93,12 +93,12 @@
                 z-index: 1;
         }
         .navegacao-principal .navegacao-container nav ul.nave-intens li a {
-            margin: 15px;
+            margin: 18px;
         }
 
         .navegacao-principal .navegacao-container nav .nave-intens  {
             width: 250px;
-            padding: 15px;
+            padding: 20px;
             background-color: black;
         }
 
