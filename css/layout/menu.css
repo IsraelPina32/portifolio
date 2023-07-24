@@ -10,9 +10,6 @@
     align-self: flex-end; 
 }
 
-
-
-
 .navegacao-principal .navegacao-container  nav  label {
     display: flex;
     flex-direction: column;
@@ -49,7 +46,6 @@
     bottom: -10px;
 }
 
-
 .navegacao-principal input {
      display: none;
 }
@@ -70,7 +66,7 @@
 
 @media (max-width: 900px){
        
-        .navegacao-principal .menu-fixo .navegacao-container .nave-intens {
+        .navegacao-principal .menu-fixo  .navegacao-container .nave-intens {
             display: none;
         }
          .navegacao-principal .navegacao-container .menu {
@@ -94,7 +90,7 @@
         .navegacao-principal .navegacao-container nav .nave-intens  {
             width: 250px;
             padding: 7px;
-            background-color: black;
+            background-color: #000;
         }
 
         .navegacao-principal .navegacao-container nav ul.nave-intens {
