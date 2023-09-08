@@ -137,7 +137,6 @@ $layout-name: "habilidades-sessao";
     .habilidades-sessao .conhecimentos .conhecimento .conhecimento-header h3{
         font-size: 1.0rem;
         display: flex;
-        flex-wrap: wrap;
 }
     .habilidades-sessao .conhecimentos .conhecimento .conhecimento-text p{
             font-size: 0.9rem;
@@ -155,7 +154,6 @@ $layout-name: "habilidades-sessao";
         display: none;
     }
     .habilidades-sessao .conhecimentos .conhecimento .conhecimento-text p{
-        flex-wrap: wrap;
         font-size: 0.9rem;   
 
 }
@@ -163,8 +161,14 @@ $layout-name: "habilidades-sessao";
 
 @media (max-width: 463px) {
     .habilidades-sessao .conhecimentos .conhecimento .conhecimento-text p{
-        flex-wrap: wrap;
-        font-size: 0.8rem;   
+        font-size: 0.7rem;   
+
+    }
+}
+
+@media (max-width: 320px) {
+    .habilidades-sessao .conhecimentos .conhecimento .conhecimento-text p{
+        font-size: 0.6rem;   
 
     }
 }

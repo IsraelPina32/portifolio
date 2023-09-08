@@ -278,7 +278,6 @@
   .habilidades-sessao .conhecimentos .conhecimento .conhecimento-header h3 {
     font-size: 1rem;
     display: flex;
-    flex-wrap: wrap;
   }
   .habilidades-sessao .conhecimentos .conhecimento .conhecimento-text p {
     font-size: 0.9rem;
@@ -293,14 +292,17 @@
     display: none;
   }
   .habilidades-sessao .conhecimentos .conhecimento .conhecimento-text p {
-    flex-wrap: wrap;
     font-size: 0.9rem;
   }
 }
 @media (max-width: 463px) {
   .habilidades-sessao .conhecimentos .conhecimento .conhecimento-text p {
-    flex-wrap: wrap;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 320px) {
+  .habilidades-sessao .conhecimentos .conhecimento .conhecimento-text p {
+    font-size: 0.6rem;
   }
 }
 .projetos {
