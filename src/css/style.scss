@@ -1,0 +1,75 @@
+@import 'variaveis/variaveis';
+@import "layout/header";
+@import "layout/home";
+@import "layout/sobre";
+@import "layout/habilidades";
+@import "layout/projetos";
+@import "layout/contato";
+@import "component/c-button";
+@import "component/c-card";
+@import "component/c-menu";
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Sarala&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+
+/* TITULO PADRAO */
+.titulo{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    h2{
+        color: white;
+        text-align: center;
+        font-size: 30pt;
+        text-transform: uppercase;
+    }
+    .linha{
+        width: 95px;
+        height: 4px;
+        background: white;
+    }
+}
+.titulo-preto{
+    h2{
+        color: black;
+     
+    }
+    .linha{
+        background: black;
+    }
+}
+
+
+/* ===KEYFRAMES=== */
+@keyframes flutuando{
+     0%{
+        transform: translate(0px, 0px);
+     }
+     50%{
+        transform: translate(0px, -15px);
+     }
+     100%{
+        transform: translate(0px, 0px);
+     }
+}
+
+// ===== MEDIA QUERY =====
