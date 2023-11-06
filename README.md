@@ -7,7 +7,7 @@
 <h3>This is my official portfolio where I put my works and Front End projects</h3>
 <br>
 <br>
-<img src="/src/imgs/Animação-Portifolio.gif"Portifolio-oficial" height="700px" width="950px">
+<img src="/src/imgs/Animação_Portifolio.gif"Portifolio-oficial" height="700px" width="950px">
 <br>
 <br>
 
