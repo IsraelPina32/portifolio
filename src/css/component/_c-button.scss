@@ -1,7 +1,7 @@
 $component-name: "c-button";
 
 .#{$component-name} {
-    background: $cor-azul;
+    background: $cor-black;
     border-radius: $mobile-size;
     color: $cor-white;
     display: inline-block;
@@ -12,7 +12,8 @@ $component-name: "c-button";
     transition: all 90ms ease-in;
 
     &:hover{
-        background-color: $cor-azul-claro;
+        background: $cor-cinza-claro;
+        color: $cor-white;
         transition: all 90ms ease-out;
     }
 
