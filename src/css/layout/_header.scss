@@ -11,14 +11,13 @@ $layout-name: "navegacao-principal";
             display: flex;
             justify-content: space-around;
             align-items: center;
-            height: 8vh;
             background: black;
             color: white;
             font-weight: bold;
             border: none;
-            transition: 0.5 all ease-in-out;
-            font-size: 18px;
             padding: 15px;
+            transition: 0.5 all ease-in-out;
+            font-size: 18pt;
             .navegacao-container-foto{
                 height: 55px;
                 border-radius: 40px;
@@ -26,8 +25,8 @@ $layout-name: "navegacao-principal";
                 font-size: 18pt;
 
                 &:hover{
-                    transform: scale(1.1);
-                    transition: 0.5s;
+                    transform: scale(0.7);
+                    transition: 0.5s ease-in-out;
                     cursor: pointer;
                     }
                 }
@@ -47,7 +46,7 @@ $layout-name: "navegacao-principal";
                            font-weight: bold;
                            padding: 5px;
                            border-radius: 200rem;
-                           transition: 0.2s all ease-in-out;
+                           transition: 0.3s all ease-in-out;
                     }
                 }
              }
