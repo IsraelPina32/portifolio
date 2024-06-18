@@ -34,10 +34,10 @@ $layout-name: "habilidades-sessao";
               }
         }
         .conhecimento-text{
-            margin-top: 1rem;
+            margin-top: 0.4rem;
             color: $text-color;
             font-family: 'Poppins', sans-serif;
-            font-weight: 300;
+            font-weight: 600;
         }
     }
 
@@ -160,8 +160,11 @@ $layout-name: "habilidades-sessao";
 }
 
 @media (max-width: 463px) {
+
+    .habilidades-sessao .conhecimentos .conhecimento:nth-child(6) {
+        grid-template-columns: 10/15;
+    }
     .habilidades-sessao .conhecimentos .conhecimento .conhecimento-text p{
         font-size: 0.6rem;   
-
     }
 }
