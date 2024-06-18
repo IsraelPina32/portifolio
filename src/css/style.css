@@ -45,7 +45,7 @@
   color: #363636;
   cursor: pointer;
   font-weight: bold;
-  padding: 5px;
+  padding: 0.3rem;
   border-radius: 200rem;
   transition: 0.2s all ease-in-out;
 }
@@ -488,7 +488,7 @@
   color: #fff;
   display: inline-block;
   max-width: 210px;
-  padding: 9px 15px;
+  padding: 1rem;
   text-align: center;
   text-decoration: none;
   transition: all 90ms ease-in;
@@ -496,7 +496,7 @@
 .c-button:hover {
   color: #000;
   background-color: #dadadd;
-  transition: all 90ms ease-out;
+  transition: all 90ms ease-in-out;
 }
 .c-button:active {
   transform: translateY(1.5px);
