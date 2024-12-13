@@ -9,9 +9,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        'h-gray-500': '#edf2f4',
+        'h-black-500': "#2b2d42",
       },
+      width: {
+        120: "30rem",
+        125: "31.25rem",
+      },
+      height: {
+        125: "31.25rem", 
+      }
     },
   },
   plugins: [],
