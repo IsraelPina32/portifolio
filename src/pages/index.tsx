@@ -4,19 +4,14 @@ import Head from "next/head";
 export default function Home() {
   const projects = [
     {
-      slug: 'NEI_market_analytics',
+      slug: 'https://nei-market-analytics.vercel.app/',
       name: 'NEI Market Analytics',
-      description: "Responsabilidades: Criação do Front-end usando o Framework Vue.js,"
+      description: "Criação de interface usando o Framework Vue.js"
     },
     {
-      slug: 'Vitrive-Front',
-      name: 'Vitrive-Front',
-      description: "Responsabilidades: Criação de toda a interface do site usando React, Typescript e tailwind css, criação de APIS para autenticação de login para os usuários com React, Criação de Cookies para os usuários e responsável pelas etapas de testes unitários usando o Vitest."
-    },
-    {
-      slug: 'Project Github API',
-      name: 'Project Github API',
-      description: "Crianção da interface usando html , css e javascript para o consumo da API do github."
+      slug: 'https://quest-pokedex-five.vercel.app/',
+      name: 'Pokedex',
+      description: "Projeto usando React e Vite para criação da interface, utilização de testes unitários usando Jest para teste com API, consumo de API externa para exibição de dados"
     },
   ];
 

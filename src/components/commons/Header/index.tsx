@@ -27,7 +27,7 @@ export default function Header() {
         <Link href="/">
             <Image src="/favicon.ico" width={55} height={55} alt="Logo da Logo Marca de Israel Pina" />
         </Link>
-        <button className="p-1 md:hidden" onClick={openMenu}>
+        <button type="button" className="p-1 md:hidden" onClick={openMenu}>
             <MenuIcon className="fill-h-black-500 w-10 h-10" />
         </button>
         <nav className="hidden md:flex items-center gap-10">

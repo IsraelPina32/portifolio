@@ -23,7 +23,6 @@ export default function Menu({isVisible, onClose}: MenuProps) {
                 </div>
                 <nav className="flex flex-col items-center text-xl p-5 gap-5">
                     <Link href="/" onClick={onClose}>Sobre mim</Link>
-                    {/* <Link href="/" onClick={onClose}>Portifolio</Link> */}
                     <Link href="/contatos" onClick={onClose}>Entre em Contatos</Link>
                 </nav>
             </div>
