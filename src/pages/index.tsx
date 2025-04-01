@@ -4,14 +4,9 @@ import Head from "next/head";
 export default function Home() {
   const projects = [
     {
-      slug: 'https://nei-market-analytics.vercel.app/',
+      slug: 'https://nei-market-analytics.com.br/',
       name: 'NEI Market Analytics',
-      description: "Criação de interface usando o Framework Vue.js"
-    },
-    {
-      slug: 'https://quest-pokedex-five.vercel.app/',
-      name: 'Pokedex',
-      description: "Projeto usando React e Vite para criação da interface, utilização de testes unitários usando Jest para teste com API, consumo de API externa para exibição de dados"
+      description: "Produto com foco em análise de mercado, com gráficos e relatórios,  o foco desde produto e aumentar a eficiência do clientes nas moedas tanto globais quanto as digitais como o Bitcon e Ethereum. as tecnologias utilizadas  Vue.js, Typescript, TailwindCss, Docker, Node.js"
     },
   ];
 
@@ -19,7 +14,7 @@ export default function Home() {
     <>
     <Head>
       <title>Sobre mim | Israel Pina</title>
-      <meta name="description" content="Sou um Desenvolvedor Web apaixonado em criar soluções digitais e ajudar empresas a alcancar seus objetivos e ajudar com icentivo a devs novatos a entrarem no mercado de Programação ou TI" />
+      <meta name="description" content="Sou um Desenvolvedor Front-end com foco em criar soluções digitais e ajudar empresas a alcancar seus objetivos com interfaces dinâmicas e ajudar com icentivo a devs iniciantes a entrarem no mercado de Programação." />
       
     </Head>
     <div className="py-12 px-6 md:px-32 space-y-10 md:space-y-28">

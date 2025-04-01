@@ -16,7 +16,7 @@ export default function AboutMe() {
                 <strong className="font-bold">Israel Pina</strong>
                 </h1>      
                 <div className="mb-12">
-                    <h2 className={`${roboto.className} mb-12`}>Sou um Desenvolvedor Full Stack apaixonado em criar soluções digitais e ajudar empresas a alcancar seus objetivos, ajudar dev iniciantes e entrarem no mercado de programação com conteúdo.</h2>
+                    <h2 className={`${roboto.className} mb-12 text-1xl`}>Sou um Desenvolvedor Front-end com objetivo em criar soluções digitais para empresas a alcancar seus objetivos atráveis de interfaces dinâmicas, ajudo dev iniciantes e entrarem no mercado de programação com conteúdo.</h2>
                     <Link href="/contatos" className="p-3 bg-black text-slate-50 w-fit  text-xl rounded-xl transition all hover:bg-opacity-80">Converse Comigo</Link>
                 </div>
                 <h3 className="text-2xl font-bold">Minhas Skills</h3>
