@@ -34,7 +34,7 @@ export default function AboutMe() {
                 <p className="p-4 w-fit text-base leading-tight bg-h-black-500 rounded-xl text-white absolute -bottom-[0.75rem] sm:bottom-3">
                     <strong className="text-4xl">3+</strong>
                     <br />
-                    meses de experiência
+                    meses de experiência.
                 </p>
             </div>
         </main>
