@@ -21,7 +21,7 @@ export default function Projects({ projects }: ProjectsProps) {
                         >
                             <li className="font-bold text-1xl py-2 flex flex-col">
                                 <p className="text-md relative">{name}</p>
-                                <p className="font-thin text-1xl py-2">{description}</p>
+                                <p className="font-thin py-2">{description}</p>
                             </li>
                         </a>
 
