@@ -13,28 +13,28 @@ export default function Contatos() {
                     <span className="font-bold">E-mail</span>
                     <div className="flex gap-1 md:gap-3 items-center ">
                     <a 
-                    href="mailto:israelcoimbra4142@gmail.com" className="text-sm md:text-lg text-slate-900 underline truncate">israelcoimbra4142@gmail.com</a>
+                    href="mailto:israelcoimbra4142@gmail.com" target="_blank" className="text-sm md:text-lg text-slate-900 underline truncate">israelcoimbra4142@gmail.com</a>
                     <CopyButton textToCopy="israelcoimbra4142@gmail.com"/>
                     </div>
                 </li>
                 <li className="md:text-xl">
                     <span className="font-bold">LinkedIn</span>
                     <div className="flex gap-1 md:gap-3 items-center">
-                    <a href="https://www.linkedin.com/in/israel-coimbra-de-pina/" className="text-sm md:text-lg text-slate-900 underline truncate">https://www.linkedin.com/in/israel-coimbra-de-pina/</a>
+                    <a href="https://www.linkedin.com/in/israel-coimbra-de-pina/" target="_blank" className="text-sm md:text-lg text-slate-900 underline truncate">https://www.linkedin.com/in/israel-coimbra-de-pina/</a>
                     </div>
                 </li>
                 <li className="md:text-xl">
                     <span className="font-bold">Github</span>
                     <div className="flex gap-1 md:gap-3 items-center">
                     <a 
-                    href="https://github.com/IsraelPina32" className="text-sm md:text-lg text-slate-900 underline truncate">https://github.com/IsraelPina32</a>
+                    href="https://github.com/IsraelPina32" target="_blank" className="text-sm md:text-lg text-slate-900 underline truncate">https://github.com/IsraelPina32</a>
                     </div>
                 </li>
                 <li className="md:text-xl">
                     <span className="font-bold">Instagram</span>
                     <div className="flex gap-1 md:gap-3 items-center">
                     <a 
-                    href="https://www.instagram.com/israel_dev26/" className="text-sm md:text-lg text-slate-900 underline truncate">https://www.instagram.com/israel_dev26/</a>
+                    href="https://www.instagram.com/israel_dev26/" target="_blank" className="text-sm md:text-lg text-slate-900 underline truncate">https://www.instagram.com/israel_dev26/</a>
                     </div>
                 </li>
             </ul>
