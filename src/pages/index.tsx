@@ -9,9 +9,14 @@ export default function Home() {
       description: "Produto com foco em análise de mercado, com gráficos e relatórios,  o foco desde produto e aumentar a eficiência do clientes nas moedas tanto globais quanto as digitais como o Bitcon e Ethereum. as tecnologias utilizadas  Vue.js, Typescript, TailwindCss, Docker, Node.js"
     },
     {
-      slug: 'https://github.com/IsraelPina32/Sistema-Notas',
+      slug: 'https://sistema-notas-rosy.vercel.app/',
       name: 'Sistema de Notas',
-      description: "Projeto focado para me aprofunda mais em conhecimentos de Front-end este projeto é um sistemas de notas onde o usúario pode adicionar,editar e deletar suas notas. as Tecnologias utilizadas TailwindCss e Vue.js."
+      description: "Projeto focado para me aprofunda mais em conhecimentos de Front-end este projeto é um sistemas de notas onde o usúario pode adicionar,editar e deletar suas notas. as Tecnologias utilizadas são TailwindCss e Vue.js."
+    },
+    {
+      slug: '',
+      name: 'Explore Belém',
+      description: "Aplicativo de Turismo que visa ajudar os turistas a conhecerem melhor a cidade de Belém, com informações sobre pontos turísticos, restaurantes e eventos locais. As tecnologias utilizadas são FluterFlow, Dart e Firebase."
     },
   ];
 
